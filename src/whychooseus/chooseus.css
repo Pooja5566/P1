@@ -1,0 +1,62 @@
+.ChooseContent1 {
+  display: block;
+  align-items: center;
+  margin: 12px;
+  box-sizing: border-box;
+  border-radius: 50px 50px 50px 50px;
+  padding-top: 20px;
+}
+.ChooseContent1 img {
+  min-width: 108px;
+  min-height: 108px;
+  max-height: 108px;
+  object-fit: contain;
+}
+/* .parentContent childContent{
+    width: 100%;
+    min-width: 224px;
+    height: 100%;
+    min-height: 208px;
+    max-height: 208px;
+
+    background: #F7F7F7;
+    text-align: center;
+} */
+.ChooseContent1 h3 {
+  font-size: 20px;
+  color: #ff7800;
+  text-align: center;
+  padding-top: 6px;
+}
+.Chooseus {
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+  min-height: 178px;
+  max-height: 178px;
+  padding: 20px;
+}
+/* .Chooseusnow{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(6, 6, 24);
+padding-top: 22px;
+
+
+} */
+/* .Chooseusnow h1{
+    color:#FF7800;
+} */
+/* .Chooseusnow p{
+    color:#f9f7f6;
+}   */
+.ChooseContent1 {
+  margin-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+/* .Chooseus h3{
+    color:#FF7800;
+    font-weight: 400;
+    padding-top: 12px;
+    
+} */

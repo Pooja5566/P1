@@ -1,0 +1,52 @@
+.parentContentprelaunch {
+  display: flex;
+  align-items: center;
+}
+.parentContentprelaunch img {
+  width: 100%;
+  min-width: 360px;
+  height: 100%;
+  min-height: 383px;
+  max-height: 303px;
+  object-fit: contain;
+}
+.childContentprelaunch {
+  width: 100%;
+  min-width: 224px;
+  height: 100%;
+  min-height: 308px;
+
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+  background: #f7f7f7;
+  text-align: center;
+}
+.childContentprelaunch h3 {
+  font-size: 26px;
+  color: #ff7800;
+  margin-bottom: 12px;
+}
+.content h4 {
+  font-size: 20px;
+  color: #000000e0;
+  font-weight: 600;
+  padding-top: 12px;
+  line-height: 40px;
+}
+.content1 h4 {
+  font-size: 18px;
+  color: #000000e0;
+  font-weight: 600;
+  padding-top: 12px;
+  line-height: 40px;
+}
+@media screen and (max-width: 768px) {
+  /* Magnolia Home */
+  .childContentprelaunch {
+    padding: 12px 12px 16px 12px;
+  }
+  .content1 h4 {
+    font-size: 14px;
+    padding-top: 2px;
+  }
+}

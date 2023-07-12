@@ -1,0 +1,67 @@
+.Footerabout h1 {
+  font-size: 22px;
+  text-align: center;
+  color: coral;
+  padding-left: 12px;
+}
+
+.Footerabout p {
+  font-size: 12px;
+  text-align: center;
+  text-align: start;
+  padding-left: 12px;
+  color: aliceblue;
+}
+/* .social-link a{
+        display: flex;
+        flex-direction: column;
+
+     
+        
+        
+    }
+.social-link h1{
+font-size: 30px;
+    text-align: center;
+    color: coral; */
+/* } */
+
+.Class1 h2 {
+  align-self: center;
+}
+.row {
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.Footercontact h1 {
+  font-size: 30px;
+  text-align: left;
+  color: coral;
+  margin-bottom: 12px;
+}
+.Footercontact {
+  text-align: center;
+  text-align: start;
+}
+.Footercontact p {
+  font-size: 18px;
+
+  margin-bottom: 12px;
+  color: aliceblue;
+}
+.Footerh {
+  background-color: #0e0618;
+}
+.Footerbottom1 h1 {
+  font-size: 20px;
+  color: coral;
+  padding: 16px 0px 16px 0px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .Footerbottom1 h1 {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,55 @@
+.Salesparent {
+  display: flex;
+  align-items: center;
+}
+.Salesparent img {
+  min-width: 240px;
+  max-width: 240px;
+  height: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  object-fit: fill;
+}
+.salesall h3 {
+  font-size: 26px;
+  color: #ff7800;
+  margin-bottom: 12px;
+}
+.salesall h4 {
+  font-size: 20px;
+}
+.salesall button {
+  font-size: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+.Sales {
+  width: 100%;
+  min-width: 224px;
+  height: 100%;
+  min-height: 208px;
+  max-height: 208px;
+
+  background: #f7f7f7;
+  text-align: center;
+}
+.Salesbutton p {
+  background-color: #ff7800;
+  width: 25%;
+  align-items: center;
+}
+.Saleshead {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .Salesparent img {
+    min-width: 140px;
+    max-width: 140px;
+    height: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: fill;
+  }
+}
